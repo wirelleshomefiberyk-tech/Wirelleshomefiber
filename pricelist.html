@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wirelleshomefiber Fiber Optic - Paket Internet</title>
+    <!-- Menggunakan Tailwind CSS CDN untuk kemudahan styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #111e47;
+        }
+    </style>
+</head>
+<body class="text-white min-h-screen p-6 md:p-12 flex justify-center items-center">
+
+    <div class="max-w-4xl w-full bg-[#111e47] relative overflow-hidden rounded-3xl p-8 md:p-12 shadow-2xl border border-blue-900">
+        
+        <!-- Aksesoris Gelombang Background (Sisi Kiri & Kanan bawah) -->
+        <div class="absolute -left-10 top-1/4 opacity-20 pointer-events-none">
+            <svg width="100" height="100" viewBox="0 0 100 100" fill="none" stroke="#f26522" stroke-width="4">
+                <path d="M10,90 Q30,50 50,90 T90,90" />
+                <path d="M10,70 Q30,30 50,70 T90,70" />
+            </svg>
+        </div>
+        <div class="absolute -right-10 bottom-10 opacity-20 pointer-events-none">
+            <svg width="150" height="150" viewBox="0 0 100 100" fill="none" stroke="#f26522" stroke-width="6">
+                <circle cx="100" cy="100" r="80" />
+                <circle cx="100" cy="100" r="60" />
+            </svg>
+        </div>
+
+        <!-- HEADER SECTION -->
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-8">
+            <div>
+                <!-- Logo -->
+                <div class="text-3xl font-extrabold tracking-tight flex items-baseline">
+                    wirelleshomefiber<span class="text-xs font-semibold ml-1 block leading-none text-left bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">Fiber<br>Optic</span>
+                </div>
+                <!-- Hubungi Kami -->
+                <div class="mt-8">
+                    <p class="text-xl font-bold tracking-wide mb-2">Hubungi Kami</p>
+                    <a href="https://wa.me/6285640817830" target="_blank" class="inline-flex items-center justify-center min-w-40 px-4 py-2 border-2 border-white rounded-full bg-transparent font-semibold text-sm hover:bg-white hover:text-[#111e47] transition-all duration-300 shadow-md">
+                        085640817830
+                    </a>
+                </div>
+            </div>
+
+            <!-- Paket Utama (13 Mbps - New!) -->
+            <div class="relative flex items-center bg-[#111e47] border-2 border-[#f26522] rounded-2xl p-6 px-8 max-w-sm w-full md:w-auto shadow-lg shadow-orange-500/10">
+                <!-- Badge New -->
+                <span class="absolute -top-4 -left-4 bg-[#f26522] text-white font-extrabold text-xs px-3 py-2 rounded-full transform -rotate-12 shadow-md animate-pulse">New!</span>
+                
+                <div class="text-7xl md:text-8xl font-black text-white tracking-tighter mr-4">13</div>
+                
+                <div>
+                    <div class="flex items-center gap-2">
+                        <span class="text-xl font-bold text-white">Mbps</span>
+                        <!-- Icon Wifi -->
+                        <svg class="w-6 h-6 text-[#f26522]" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15.75a6.002 6.002 0 0111.5 0M4.5 12A9.75 9.75 0 0119.5 12M1.5 8.25A13.5 13.5 0 0122.5 8.25M12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"></path>
+                        </svg>
+                    </div>
+                    <p class="text-[10px] text-gray-400 mt-1">Non FUP</p>
+                    <p class="text-[10px] text-gray-400 line-through">Biaya pasang Rp 125.000</p>
+                    <p class="text-xl font-bold text-[#f26522] mt-1">Rp <span class="text-2xl">125.000</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- GRID PAKET INTERNET -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-12">
+            
+            <!-- Paket 5 Mbps -->
+            <div class="border-2 border-blue-500/50 rounded-2xl p-5 pt-8 relative flex flex-col items-center bg-blue-950/20 backdrop-blur-sm">
+                <span class="absolute -top-4 bg-[#f26522] text-white text-xs font-bold px-4 py-1.5 rounded-xl">Speed Up To</span>
+                <div class="text-4xl font-black text-[#f26522] mb-1">5 <span class="text-lg font-bold text-white">Mbps</span></div>
+                <p class="text-[11px] text-gray-400">Non FUP</p>
+                <p class="text-[11px] text-gray-400 line-through mb-4">Biaya pasang Rp 100.000</p>
+                <div class="text-xl font-bold border-t border-blue-900 w-full text-center pt-3 text-white">Rp 100.000</div>
+            </div>
+
+            <!-- Paket 15 Mbps -->
+            <div class="border-2 border-blue-500/50 rounded-2xl p-5 pt-8 relative flex flex-col items-center bg-blue-950/20 backdrop-blur-sm">
+                <span class="absolute -top-4 bg-[#f26522] text-white text-xs font-bold px-4 py-1.5 rounded-xl">Speed Up To</span>
+                <div class="text-4xl font-black text-[#f26522] mb-1">15 <span class="text-lg font-bold text-white">Mbps</span></div>
+                <p class="text-[11px] text-gray-400">Non FUP</p>
+                <p class="text-[11px] text-gray-400 line-through mb-4">Biaya pasang Rp 135.000</p>
+                <div class="text-xl font-bold border-t border-blue-900 w-full text-center pt-3 text-white">Rp 135.000</div>
+            </div>
+
+            <!-- Paket 20 Mbps -->
+            <div class="border-2 border-blue-500/50 rounded-2xl p-5 pt-8 relative flex flex-col items-center bg-blue-950/20 backdrop-blur-sm">
+                <span class="absolute -top-4 bg-[#f26522] text-white text-xs font-bold px-4 py-1.5 rounded-xl">Speed Up To</span>
+                <div class="text-4xl font-black text-[#f26522] mb-1">20 <span class="text-lg font-bold text-white">Mbps</span></div>
+                <p class="text-[11px] text-gray-400">Non FUP</p>
+                <p class="text-[11px] text-gray-400 line-through mb-4">Biaya pasang Rp 150.000</p>
+                <div class="text-xl font-bold border-t border-blue-900 w-full text-center pt-3 text-white">Rp 150.000</div>
+            </div>
+
+            <!-- Paket 25 Mbps -->
+            <div class="border-2 border-blue-500/50 rounded-2xl p-5 pt-8 relative flex flex-col items-center bg-blue-950/20 backdrop-blur-sm">
+                <span class="absolute -top-4 bg-[#f26522] text-white text-xs font-bold px-4 py-1.5 rounded-xl">Speed Up To</span>
+                <div class="text-4xl font-black text-[#f26522] mb-1">25 <span class="text-lg font-bold text-white">Mbps</span></div>
+                <p class="text-[11px] text-gray-400">Non FUP</p>
+                <p class="text-[11px] text-gray-400 line-through mb-4">Biaya pasang Rp 100.000</p>
+                <div class="text-xl font-bold border-t border-blue-900 w-full text-center pt-3 text-white">Rp 165.000</div>
+            </div>
+
+            <!-- Paket 35 Mbps -->
+            <div class="border-2 border-blue-500/50 rounded-2xl p-5 pt-8 relative flex flex-col items-center bg-blue-950/20 backdrop-blur-sm">
+                <span class="absolute -top-4 bg-[#f26522] text-white text-xs font-bold px-4 py-1.5 rounded-xl">Speed Up To</span>
+                <div class="text-4xl font-black text-[#f26522] mb-1">35 <span class="text-lg font-bold text-white">Mbps</span></div>
+                <p class="text-[11px] text-gray-400">Non FUP</p>
+                <p class="text-[11px] text-gray-400 line-through mb-4">Biaya pasang Rp 210.000</p>
+                <div class="text-xl font-bold border-t border-blue-900 w-full text-center pt-3 text-white">Rp 210.000</div>
+            </div>
+
+            <!-- Paket 50 Mbps -->
+            <div class="border-2 border-blue-500/50 rounded-2xl p-5 pt-8 relative flex flex-col items-center bg-blue-950/20 backdrop-blur-sm">
+                <span class="absolute -top-4 bg-[#f26522] text-white text-xs font-bold px-4 py-1.5 rounded-xl">Speed Up To</span>
+                <div class="text-4xl font-black text-[#f26522] mb-1">50 <span class="text-lg font-bold text-white">Mbps</span></div>
+                <p class="text-[11px] text-gray-400">Non FUP</p>
+                <p class="text-[11px] text-gray-400 line-through mb-4">Biaya pasang Rp 200.000</p>
+                <div class="text-xl font-bold border-t border-blue-900 w-full text-center pt-3 text-white">Rp 250.000</div>
+            </div>
+
+        </div>
+
+        <!-- FOOTER / NOTE -->
+        <div class="border-t border-gray-700/50 pt-4">
+            <p class="text-xs text-gray-400 font-semibold uppercase tracking-wider">Note:</p>
+            <p class="text-sm font-bold tracking-wide mt-1">IURAN DIBAYAR BULAN DEPAN,DI AWAL HANYA BIAYA PASANG 300RB SAJAA</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
